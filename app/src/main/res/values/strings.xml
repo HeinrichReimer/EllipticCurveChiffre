@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Elliptic Curve Chiffre</string>
+
+    <string name="label_domain_parameters">Domain parameters:</string>
+    <string name="label_parameters_a_b">Elliptic curve: y² = x³ + ax + b</string>
+    <string name="label_parameter_a">a:</string>
+    <string name="hint_parameter_a">2</string>
+    <string name="label_parameter_b">b:</string>
+    <string name="hint_parameter_b">2</string>
+    <string name="label_parameter_g">Generator (G):</string>
+    <string name="label_parameter_g_x">x:</string>
+    <string name="hint_parameter_g_x">5</string>
+    <string name="label_parameter_g_y">y:</string>
+    <string name="hint_parameter_g_y">1</string>
+    <string name="label_parameter_modulo">Modulo:</string>
+    <string name="label_parameter_p">p:</string>
+    <string name="hint_parameter_p">17</string>
+    <string name="label_calculate_n">Calculate order of G</string>
+    <string name="label_output_n_empty">Order of G (n): ?</string>
+    <string name="label_output_n">Order of G (n): %1$d</string>
+
+    <string name="label_private_parameters">Private parameters:</string>
+    <string name="label_parameter_alpha">\u03b1 (&lt; n):</string>
+    <string name="label_calculate_point_a">Calculate public key</string>
+    <string name="label_output_point_a_empty">Public key to send (A): (?|?)</string>
+    <string name="label_output_point_a">Public key to send (A): (%1$d|%2$d)</string>
+
+    <string name="label_shared_parameters">Shared parameters:</string>
+    <string name="label_parameter_point_b">Shared key to receive (B):</string>
+    <string name="label_parameter_point_b_x">x:</string>
+    <string name="label_parameter_point_b_y">y:</string>
+    <string name="label_calculate_point_p">Calculate shared private key</string>
+    <string name="label_output_point_p_empty">Shared private encryption key (P): (?|?)</string>
+    <string name="label_output_point_p">Shared private encryption key (P): (%1$d|%2$d)</string>
+</resources>

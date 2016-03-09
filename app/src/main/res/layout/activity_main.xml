@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.heinrichreimersoftware.ellipticcurvechiffre.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/baseline">
+
+        <include layout="@layout/layout_domain_parameters"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/baseline"/>
+
+        <include layout="@layout/layout_private_parameters"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/baseline"/>
+
+        <include layout="@layout/layout_shared_parameters"/>
+
+    </LinearLayout>
+
+</ScrollView>

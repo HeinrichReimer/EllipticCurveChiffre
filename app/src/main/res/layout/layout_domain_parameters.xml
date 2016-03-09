@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_domain_parameters"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_marginBottom="@dimen/baseline_typo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_parameters_a_b"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/baseline_typo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_parameter_a"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="@dimen/baseline"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/inputA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number|numberSigned"
+            android:hint="@string/hint_parameter_a" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/baseline_typo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_parameter_b"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="@dimen/baseline"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/inputB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number|numberSigned"
+            android:hint="@string/hint_parameter_b" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_parameter_g"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/baseline_typo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_parameter_g_x"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="@dimen/baseline"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/inputGX"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number|numberSigned"
+            android:hint="@string/hint_parameter_g_x" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/baseline_typo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_parameter_g_y"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="@dimen/baseline"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/inputGY"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number|numberSigned"
+            android:hint="@string/hint_parameter_g_y" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_parameter_modulo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/baseline_typo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_parameter_p"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="@dimen/baseline"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/inputP"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:hint="@string/hint_parameter_p" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calculateN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_calculate_n"/>
+
+    <TextView
+        android:id="@+id/outputN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_output_n_empty"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_private_parameters"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_marginBottom="@dimen/baseline_typo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/baseline_typo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_parameter_alpha"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="@dimen/baseline"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/inputAlpha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calculatePointA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_calculate_point_a"/>
+
+    <TextView
+        android:id="@+id/outputPointA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_output_point_a_empty"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+</LinearLayout>
