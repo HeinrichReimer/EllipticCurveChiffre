@@ -1,5 +1,4 @@
-android-elliptic-curve-chiffre
-===
+# android-elliptic-curve-chiffre
 
 [![Build Status](https://travis-ci.org/heinrichreimer/android-elliptic-curve-chiffre.svg?branch=master)](https://travis-ci.org/heinrichreimer/android-elliptic-curve-chiffre)
 [![License](https://img.shields.io/github/license/heinrichreimer/android-elliptic-curve-chiffre.svg)](https://github.com/heinrichreimer/android-elliptic-curve-chiffre/blob/master/LICENSE.txt)
