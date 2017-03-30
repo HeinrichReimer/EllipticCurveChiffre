@@ -15,7 +15,7 @@ env:
 
 # JDK version
 jdk:
-  - oraclejdk8
+  - oraclejdk7
 
 # Android build system
 android:
